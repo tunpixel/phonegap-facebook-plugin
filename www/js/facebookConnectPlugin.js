@@ -169,7 +169,7 @@ if (!window.cordova) {
     (function () {
         console.log("launching FB SDK")
         var e = document.createElement('script');
-        e.src = document.location.protocol + '//connect.facebook.net/en_US/sdk.js';
+        e.src = document.location.protocol + '//connect.facebook.net/fr_FR/sdk.js';
         e.async = true;
         document.getElementById('fb-root').appendChild(e);
     }());
