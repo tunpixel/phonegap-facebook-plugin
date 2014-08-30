@@ -36,7 +36,7 @@ PhoneGap Build documentation available [here] (https://build.phonegap.com/plugin
 
 ### Login
 
-`facebookConnectPlugin.login(Function success, Function failure)`
+`facebookConnectPlugin.login(Array strings of permissions, Function success, Function failure)`
 
 **NOTE** : Developers should call `facebookConnectPlugin.browserInit(<appId>)` before login - **Web App ONLY** (see [Web App Guide](platforms/web/README.md))
 
